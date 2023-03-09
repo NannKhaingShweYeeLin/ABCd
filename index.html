@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+   <!-- Bootstrap CSS -->
+   <title>ABC Learning Center</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="index.css">
+   
+   <title>ABC Learning Center</title>
+   <link rel="stylesheet" href="script.js">
+
+  <meta charset="utf-8">
+ 
+  <head>
+   
+    <style>
+      hr{
+    height: 1px;
+    background-color:  rgb(131, 13, 209);
+    border: none;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+      </style>
+     <script>
+      $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+          $(this).next('ul').toggle();
+          e.stopPropagation();
+          e.preventDefault();
+        });
+      });
+      </script>  
+  
+   
+   
+  
+  </head>
+  <body>
+  <!--nav bar-->
+  <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>                        
+    </button>
+    <a class="navbar-brand "  href="#">ABC Learning Center</a>
+    </div>
+    
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+    <li><a href="index.html">Home</a></li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Courses</a>
+          
+          <ul class="dropdown-menu">
+            <li><a tabindex="-1" href="projava.html">Programming in Java</a></li>
+            <li><a tabindex="-1" href="pronet.html">Programming in .Net</a></li>
+            <li><a tabindex="-1" href="promicrosoft.html">Microsoft office</a></li>
+            <li><a tabindex="-1" href="prohtml.html">HTML</a></li>
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="">Course Schedule <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="pn.html">Course schedule for programming in java</a></li>
+                <li><a tabindex="-1" href="pn.html">Course schedule for programming in .Net</a></li>
+                <li><a tabindex="-1" href="pn.html">Course schedule for Microsoft office</a></li>
+                <li><a tabindex="-1" href="pn.html">Course schedule for HTML</a></li>
+                
+               
+              </ul>
+            </li>
+          </ul>
+      
+      <div class="dropdown">
+      
+      </div>
+      </li>
+    
+    <li><a href="aboutus.html">About us</a></li>
+    <li><a href="account.html">Account</a></li>
+    <li><a href="contat.html">Contact </a></li>
+    <li><a href="privacy.html">Privacy policy </a></li>
+    <li><a href="sitemap.html">Sitemap</a></li>
+    
+    </ul>
+    </div>
+    
+</nav>
+<br><br><br><br>
+<div class="container">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" style="border-radius: 20px">
+
+    <div class="item active">
+      <img src="img/kll.PNG" alt="Los Angeles" style="width:100%;">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="img/st.jpg" alt="Chicago" style="width:100%;">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p></p>
+      </div>
+    </div>
+  
+    <div class="item">
+      <img src="img/rre.jpg" alt="New York" style="width:100%;">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+
+  <br><br>
+<div class="container">
+  <div id="jum"class="jumbotron">
+    <h1>ABC Learning Center</h1>      
+    <p>This is ABC Learning Center's Privacy Notice.This privacy policy informs you of additional information and rights 
+      you may have pursuant to certain applicable regulations related to privacy and data protection. If you are located 
+      in the European Union, the General Data Protection Regulation effective 25 May 2018 (“GDPR”) applies to information 
+      about you (“Personal Data” under GDPR) that MOTH may collect. In that case, and under GDPR, you are defined as a “Data
+       Subject,” MOTH is a “Data Controller” for Personal Data that MOTH obtains and “Processes,” and this policy explains your
+        rights with respect to that Personal Data</p></p>      
+</div>
+<br><br><hr></div><br><br>
+<center><h1>Our courses</h1></center>
+<div class="line"></div><br><br><br><br>
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <img id ="rrr" src="img/java.jpg" class="img-responsive" alt="Avatar" style="width:200px"> <br> <h1> <a href="projava.html">Java</a></h1></div>
+
+        <div class="col-md-3">
+          <img id ="rrr" src="img/n.jpg" class="img-responsive" alt="Avatar" style="width:200px"><br><h1> <a href="pronet.html">.Net</a></h1></div>
+
+          <div class="col-md-3">
+            <img id ="rrr" src="img/mic.png" class="img-responsive" alt="Avatar" style="width:200px"><br><h1> <a href="promicrosoft.html">Microsoft office</a></h1></div>
+
+<div class="col-md-3">
+  <img id ="rrr1" src="img/html.jpg" class="img-responsive" alt="Avatar" style="width:200px"><br><h1> <a href="prohtml.html">Html</a></h1> </div> </div> </div> 
+
+ 
+
+       
+              <!-- multiple dropdown----<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Submenu action</a></li>
+                  <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+    
+    
+                 <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                      <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                      <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                    </ul>
+                  </li>--> 
+    
+                  <!--footer-->
+       
+ <br><br>
+ <!--footer-->
+ <section id="fft">
+ <footer class="footer">
+  
+  <div class="footer__addr">
+    
+      <div class="row">
+          <div class="col-md-4">
+    <h1 class="footer__logo">ABC Learning center</h1><br><br><br> <h2>Follow us</h2>
+        <br>
+        
+                    <!--icon-->
+                    <button type="button" class="btn btn-social-icon btn-outline-youtube" ><a href="https://www.youtube.com/results?search_query=java"><i class="fa fa-youtube"></i> </a></button>
+                    <button type="button" class="btn btn-social-icon btn-outline-envelope"><a href=" https://outlook.office.com/mail/inbox/id/AAQkADQ4NWY0YWUzLTA5YzgtNGQ3OS1hNjg0LTYyMzBhNTZlNmI5MAAQACXYkoh6pXxMl9lsDDtrMbI%3D"><i class="fa fa-envelope"></i></a></button>                                        
+                    <button type="button" class="btn btn-social-icon btn-outline-facebook"><a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa fa-facebook"></i></a></button>
+                    <button type="button" class="btn btn-social-icon btn-outline-instagram"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></button>
+                  </div> 
+                
+<div class="col-md-4">
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Community</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="aboutus.html">About us</a>
+        </li>
+
+     <li>
+          <a href="privacy.html">Privacy policy</a>
+        </li>
+            
+        <li>
+          <a href="terms.html">Terms&conditions</a>
+        </li>
+
+        <li>
+          <a href="contact.html">Contact us</a>
+        </li>
+        <li>
+          <a href="success.html">Success story</a>
+        </li>
+
+      </ul>
+    </li>
+  </div>
+    
+
+  <div class="col-md-4">
+    <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Learn</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a href="projava.html">Java courses</a>
+        </li>
+        
+        <li>
+          <a href="pronet.html">.Net courses</a>
+        </li>
+        <li>
+          <a href="promicrosoft.html">Microsoft office</a>
+        </li>
+        
+        <li>
+          <a href="prohtml.html">HTML</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  
+  </div> 
+  
+</footer></div></section>
+ <!--footer-->
+
+</body>
+</html>
+
+                
+           
+            
+             
+            
+        
+ 

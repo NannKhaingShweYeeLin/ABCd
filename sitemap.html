@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+   <!-- Bootstrap CSS -->
+   <title>ABC Learning Center</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="index.css">
+   <title>ABC Learning Center</title>
+   <link rel="stylesheet" href="script.js">
+  <head>
+   
+    <style>
+      hr{
+    height: 1px;
+    background-color: rgb(131, 13, 209);
+    border: none;
+   
+}
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+      </style>
+     <script>
+      $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+          $(this).next('ul').toggle();
+          e.stopPropagation();
+          e.preventDefault();
+        });
+      });
+      </script>  
+  
+   
+   
+  
+  </head>
+  
+  <!--nav bar-->
+  <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>                        
+    </button>
+    <a class="navbar-brand "  href="#">ABC Learning Center</a>
+    </div>
+    
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+    <li><a href="index.html">Home</a></li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Courses</a>
+          
+          <ul class="dropdown-menu">
+            <li><a tabindex="-1" href="projava.html">Programming in Java</a></li>
+            <li><a tabindex="-1" href="pronet.html">Programming in .Net</a></li>
+            <li><a tabindex="-1" href="promicrosoft.html">Microsoft office</a></li>
+            <li><a tabindex="-1" href="prohtml.html">HTML</a></li>
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="">Course Schedule <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="pn.html">Course schedule for programming in java</a></li>
+                <li><a tabindex="-1" href="pn.html">Course schedule for programming in .Net</a></li>
+                <li><a tabindex="-1" href="pn.html">Course schedule for Microsoft office</a></li>
+                <li><a tabindex="-1" href="pn.html">Course schedule for HTML</a></li>
+                
+               
+              </ul>
+            </li>
+          </ul>
+      
+      <div class="dropdown">
+      
+      </div>
+      </li>
+    
+    <li><a href="aboutus.html">About us</a></li>
+    <li><a href="account.html">Account</a></li>
+    <li><a href="contat.html">Contact </a></li>
+    <li><a href="privacy.html">Privacy policy </a></li>
+    <li><a href="sitemap.html">Sitemap</a></li>
+    
+    </ul>
+    </div>
+    
+</nav>
+<body>
+    <br><br>
+    <div class="container">
+    <center>
+    <h1>Sitemap</h1>
+    <br><br>
+    <section id="site"><br><br>
+    <p class="solid">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"><h4 id="hj">Home</h4>
+        <a href="index.html">Home</a><br><br></div>
+        <div class="col-md-4"> <h4 id="hj">Courses</h4>
+        <a href="projava.html">Programming in java</a><br><br>
+        <a href="pronet.html">Programming in .Net</a><br><br>
+        <a href="promicrosoft.html">Microsoft office</a><br><br>
+        <a href="prohtml.html">HTML</a><br><br>
+        <a href="courseschedule.html">Courseschedule</a><br><br></div>
+
+       <div class="col-md-4">   <h4 id="hj">About us</h4><a href="aboutus.html">About us</a><br><br></div></div></div>
+        <br><br>
+
+       <div class="container">
+        <div class="row">
+            <div class="col-md-3"><h4 id="hj">Account</h4> <a href="account.html">Account</a><br><br></div>
+       
+            <div class="col-md-3"><h4 id="hj">Contact</h4> <a href="contact.html">Contact </a><br><br></div>
+       
+            <div class="col-md-3"><h4 id="hj">Privacy policy</h4><a href="privacy.html">Privacy policy</a><br><br></div>
+            <div class="col-md-3"><h4 id="hj">Sitemap</h4> <a href="sitemap.html">Sitemap</a><br><br><br><br></p></section></div></div></div>
+    
+        
+</center><br><br></div>
+     <!--footer-->
+ <footer class="footer">
+    
+      
+  <div class="footer__addr">
+    
+      <div class="row">
+          <div class="col-md-4">
+    <h1 class="footer__logo">ABC Learning center</h1><br><br><br> <h2>Follow us</h2>
+        <br>
+        
+                    <!--icon-->
+                    <button type="button" class="btn btn-social-icon btn-outline-youtube" ><a href="https://www.youtube.com/results?search_query=java"><i class="fa fa-youtube"></i> </a></button>
+                    <button type="button" class="btn btn-social-icon btn-outline-envelope"><a href=" https://outlook.office.com/mail/inbox/id/AAQkADQ4NWY0YWUzLTA5YzgtNGQ3OS1hNjg0LTYyMzBhNTZlNmI5MAAQACXYkoh6pXxMl9lsDDtrMbI%3D"><i class="fa fa-envelope"></i></a></button>                                        
+                    <button type="button" class="btn btn-social-icon btn-outline-facebook"><a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa fa-facebook"></i></a></button>
+                    <button type="button" class="btn btn-social-icon btn-outline-instagram"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></button>
+                  </div> 
+                
+<div class="col-md-4">
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Community</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="aboutus.html">About us</a>
+        </li>
+
+     <li>
+          <a href="privacy.html">Privacy policy</a>
+        </li>
+            
+        <li>
+          <a href="terms.html">Terms&conditions</a>
+        </li>
+
+        <li>
+          <a href="contact.html">Contact us</a>
+        </li>
+        <li>
+          <a href="success.html">Success story</a>
+        </li>
+
+      </ul>
+    </li>
+  </div>
+    
+
+  <div class="col-md-4">
+    <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Learn</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a href="projava.html">Java courses</a>
+        </li>
+        
+        <li>
+          <a href="pronet.html">.Net courses</a>
+        </li>
+        <li>
+          <a href="promicrosoft.html">Microsoft office</a>
+        </li>
+        
+        <li>
+          <a href="prohtml.html">HTML</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  
+  </div> 
+  
+</footer></div>
+ <!--footer-->
+
+</body>
+</html>
